@@ -1,9 +1,9 @@
-let elements = document.getElementByTagName("strong");
+let elements = document.getElementsByTagName("strong");
 
 function highlight() {
     //Write your code here
 	for(let i=0;i<elements.length;i++){
-		elements[i].style.color = "green";
+		elements[i].style.color = "rgb(0, 128, 0)";
 	}
 
 }
@@ -12,7 +12,7 @@ function highlight() {
 function return_normal() {
     //Write your code here
 	for(let i=0;i<elements.length;i++){
-		elements[i].style.color = "black";
+		elements[i].style.color = "rgb(0, 0, 0)";
 	}
     
 }
